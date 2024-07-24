@@ -1,0 +1,254 @@
+.cooking {
+  background-image: url("./img/an3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.col-4-cooking {
+  padding: 30px;
+  text-align: center;
+}
+
+.cook {
+  color: #5a9d3a;
+  font-size: 70px;
+}
+.as {
+  color: #83c73f;
+  font-size: 50px;
+}
+.get {
+  color: #5a9d3a;
+}
+.that {
+  color: #767676;
+}
+.get-button {
+  background-color: #5a9d3a;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 15px;
+}
+
+.get-button:hover {
+  background-color: #83c73f;
+  color: white;
+}
+
+.intro {
+  text-align: center;
+  padding: 20px;
+  background: #5a9d3a;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.intro h1 {
+  color: white;
+}
+.intro h3 {
+  color: #83c73f;
+}
+.intro p {
+  color: white;
+}
+.container {
+  padding: 30px;
+}
+.container img {
+  width: 80%;
+  height: auto;
+  max-width: 100%;
+}
+.manage {
+  text-align: center;
+  background-color: #5a9d3a;
+  color: #f2f6dc;
+  padding: 20px;
+}
+.container-2 {
+  background-color: #f2f6dc;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.center-image {
+  max-width: 100%;
+  height: auto;
+}
+.Order {
+  color: #5a9d3a;
+}
+.skip {
+  color: #83c73f;
+  margin-bottom: 70px;
+}
+.inspiration {
+  text-align: center;
+  color: #f2f6dc;
+  background-color: #5a9d3a;
+  padding: 20px;
+}
+.container-3 {
+  background-color: #f2f6dc;
+}
+.container-3 .row img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.get-cooking {
+  font-size: 80px;
+  font-family: Arial;
+}
+
+.footer {
+  background-image: url("./img/an8.png");
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+.container-4 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.choose-button {
+  background-color: #5a9d3a;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 15px;
+}
+
+.choose-button:hover {
+  background-color: #83c73f;
+  color: white;
+}
+
+/* Base Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.get-button,
+.choose-button {
+  transition-duration: 0.4s;
+  border-radius: 15px;
+}
+
+.get-button:hover,
+.choose-button:hover {
+  background-color: #83c73f;
+  color: white;
+}
+
+/* Tablets, 768px  */
+@media (max-width: 768px) {
+  .cooking {
+    background-image: url("./img/an2.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .col-4-cooking {
+    padding: 20px;
+  }
+
+  .cook {
+    font-size: 30px;
+  }
+
+  .as {
+    font-size: 20px;
+  }
+
+  .get-button,
+  .choose-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .intro,
+  .manage,
+  .inspiration {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .intro h1,
+  .intro h3,
+  .intro p {
+    font-size: 90%;
+  }
+  .container-2 .col-1,
+  .container-2 .col-3,
+  .container-2 .col-7,
+  .container-2 .col-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .cooking {
+    background-image: url("./img/an2.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .col-4-cooking {
+      padding: 10px;
+  }
+
+  .cook {
+      font-size: 20px;
+  }
+
+  .get-button, .choose-button {
+      padding: 7px 15px;
+      font-size: 8px;
+  }
+  .that{
+    font-size: 10px;
+  }
+
+  .container .col-4, .container .col-3, .container .col-2, .container .col-1 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      }
+
+  .container-3 .col-1, .container-3 .col-3, .container-3 .col-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+}
